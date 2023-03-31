@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/x1_sso_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Токен: "
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/copy_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Скопировать"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/bot_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перейти в бота @EduOrbBot"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/clear_session_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Очистить сессию"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Домой"
+        android:padding="16dp"/>
+
+</LinearLayout>
